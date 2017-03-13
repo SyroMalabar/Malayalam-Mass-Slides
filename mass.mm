@@ -14,6 +14,8 @@
 \newcommand{\Priest}[1]{\color{white}#1}
 \newcommand{\People}[1]{\color{yellow}#1}
 
+\newcommand{\Ammen}{\People{<m>aammeen.</m>}}
+
 \begin{document}
 
 \frame{\titlepage}
@@ -24,9 +26,7 @@
 pitaavinReyum putranReyum parishuddhaatmaavinReyum naamattil.
 </m>}
 
-\People{<m>
-aammeen.
-</m>}
+\Ammen
 \end{frame}
 
 \begin{frame}[allowframebreaks]
@@ -52,17 +52,13 @@ tirumunpaakeyaNacciiTaam.
 atyunnatan"n"aLil daivattinu stuti.
 </m>}
 
-\People{<m>
-aammeen.
-</m>}
+\Ammen
 
 \Priest{<m>
 bhuumiyil manuSyaR{}kku samaadhaanavum pratyaashayum eppoozhum enneekkum.
 </m>}
 
-\People{<m>
-aammeen.
-</m>}
+\Ammen
 \end{frame}
 
 \begin{frame}[allowframebreaks]
@@ -70,9 +66,7 @@ aammeen.
 \Priest{<m>
 </m>}
 
-\People{<m>
-aammeen.
-</m>}
+\Ammen
 \end{frame}
 
 \begin{frame}[allowframebreaks]
@@ -80,9 +74,7 @@ aammeen.
 \Priest{<m>
 </m>}
 
-\People{<m>
-aammeen.
-</m>}
+\Ammen
 \end{frame}
 
 \begin{frame}[allowframebreaks]
@@ -90,9 +82,7 @@ aammeen.
 \Priest{<m>
 </m>}
 
-\People{<m>
-aammeen.
-</m>}
+\Ammen
 \end{frame}
 
 \begin{frame}[allowframebreaks]
@@ -100,9 +90,7 @@ aammeen.
 \Priest{<m>
 </m>}
 
-\People{<m>
-aammeen.
-</m>}
+\Ammen
 \end{frame}
 
 \begin{frame}[allowframebreaks]
@@ -110,9 +98,7 @@ aammeen.
 \Priest{<m>
 </m>}
 
-\People{<m>
-aammeen.
-</m>}
+\Ammen
 \end{frame}
 
 \end{document}
