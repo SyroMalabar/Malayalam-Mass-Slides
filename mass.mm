@@ -32,24 +32,14 @@ aammeen.
 \begin{frame}[allowframebreaks]
 \frametitle{<m>mishihaayuTe kala+pana</m>}
 <m>
-kaaR{}mmi:
-
 annaappesahaattirunaaLil\\
 kaR{}ttaavaruLiya kala+panapool\\
 tirunaamattil ceeR{}nniiTaam\\
-orumayoTii baliyaR{}ppikkaam\\
-</m>
-\end{frame}
-
-\begin{frame}[allowframebreaks]
-\frametitle{<m></m>}
-<m>
-samu:
-
+orumayoTii baliyaR{}ppikkaam.\\
 anuran~a+jitaraaya+ttiiR{}nniiTaam\\
 navamoru piiThamorukkiiTaam\\
 guruvin sneehamoTiiyaagam\\
-tirumunpaakeyaNacciiTaam\\
+tirumunpaakeyaNacciiTaam.\\
 </m>
 \end{frame}
 
