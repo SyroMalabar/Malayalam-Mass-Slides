@@ -11,10 +11,6 @@
 \title{<m> kuR{}baana </m>}
 \date{}
 
-% \def\priest{kaaR{}mmi:}
-\newcommand{\priest}{kaaR{}mmi:}
-\def\people{samoo:}
- 
 \begin{document}
 
 \frame{\titlepage}
@@ -37,15 +33,23 @@ aammeen.
 \frametitle{<m>mishihaayuTe kala+pana</m>}
 <m>
 kaaR{}mmi:
-samu:
+
+annaappesahaattirunaaLil\\
+kaR{}ttaavaruLiya kala+panapool\\
+tirunaamattil ceeR{}nniiTaam\\
+orumayoTii baliyaR{}ppikkaam\\
 </m>
 \end{frame}
 
 \begin{frame}[allowframebreaks]
 \frametitle{<m></m>}
 <m>
-kaaR{}mmi:
 samu:
+
+anuran~a+jitaraaya+ttiiR{}nniiTaam\\
+navamoru piiThamorukkiiTaam\\
+guruvin sneehamoTiiyaagam\\
+tirumunpaakeyaNacciiTaam\\
 </m>
 \end{frame}
 
