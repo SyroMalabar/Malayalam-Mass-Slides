@@ -8,8 +8,8 @@
 
 \usepackage[rachana]{malayalam}
 
-\title{<m> kuR{}baana </m>}
-\date{}
+%\title{<m> kuR{}baana </m>}
+\title{Syro Malabar Malayalam Mass}
 
 \newcommand{\Priest}[1]{\color{white}#1}
 \newcommand{\People}[1]{\color{yellow}#1}
@@ -18,8 +18,6 @@
 
 \begin{document}
 
-\frame{\titlepage}
- 
 \begin{frame}[allowframebreaks]
 \frametitle{<m>kurishaTayaaLaM</m>}
 \Priest{<m>
