@@ -62,9 +62,13 @@ bhuumiyil manuSyaR{}kku samaadhaanavum pratyaashayum eppoozhum enneekkum.
 \begin{frame}[allowframebreaks]
 \frametitle{<m></m>}
 \Priest{<m>
+atyunnatamaam svaR{}llookattil\\
+saR{}vveeshanu stutigiitam.
 </m>}
 
-\Ammen
+\People{<m>
+bhuumiyil maR{}tyanu shaanti pratyaashayumenneekkum.
+</m>}
 \end{frame}
 
 \begin{frame}[allowframebreaks]
