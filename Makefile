@@ -4,10 +4,10 @@ INPUT=mass
 clean_up = @rm -f *.aux *.dvi *.fdb* *.fls *.log *.out *.synctex.gz *.toc *.nav *.snm
 
 all: clean
-	mal $(INPUT).mm
-	pdflatex $(INPUT)
-	$(call clean_up)
+	@xelatex $(INPUT)
+#	@xelatex $(INPUT) > /dev/null
+	@$(call clean_up)
 
 clean:
-	$(call clean_up)
+	@$(call clean_up)
 	@rm -f *.pdf 
