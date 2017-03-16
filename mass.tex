@@ -1,0 +1,44 @@
+\documentclass[20pt]{beamer}
+ 
+\setbeamercolor{normal text}{bg=black, fg=white}
+\setbeamertemplate{frametitle continuation}{}
+\setbeamertemplate{navigation symbols}{}
+
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setdefaultlanguage{malayalam}
+% \setmainfont[Script=Malayalam, HyphenChar="0000]{Rachana}
+\setsansfont[Script=Malayalam, HyphenChar="0000]{Rachana}
+% In the above line we customized Hyphenation characters since
+% visbile hyphen, aka Soft Hyphen is not used for Malayalam
+\lefthyphenmin=3
+\righthyphenmin=4
+
+\title{വിശുദ്ധ കുര്‍ബാന}
+
+\newcommand{\Priest}[1]{\color{white}#1}
+\newcommand{\People}[1]{\color{yellow}#1}
+
+\newcommand{\Ammen}{\People{ആമ്മേന്‍}}
+
+\begin{document}
+
+\begin{frame}[allowframebreaks]
+\frametitle{കുരിശടയാളം}
+\Priest{
+പിതാവിന്റെയും പുത്രന്റെയും പരിശുദ്ധാത്മാവിന്റെയും നാമത്തില്‍.
+}
+\Ammen
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+\frametitle{മിശിഹായുടെ കല്പന}
+\Priest{
+അന്നാപ്പെസഹാത്തിരുനാളില്‍\\
+കര്‍ത്താവരുളിയ കല്പനപോല്‍\\
+തിരുനാമത്തില്‍ ര്‍ന്നീടാം.\\
+}
+\Ammen
+\end{frame}
+
+\end{document}
