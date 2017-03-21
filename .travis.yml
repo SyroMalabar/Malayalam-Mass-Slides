@@ -1,7 +1,6 @@
-dist: trusty
 language: r
 
 before_install:
-	- tlmgr install index
+  - tlmgr install index
 
 script: make
