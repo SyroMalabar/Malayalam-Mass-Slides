@@ -21,12 +21,9 @@
 \usepackage{fontspec}
 \usepackage{polyglossia}
 \setdefaultlanguage{malayalam}
-% \setmainfont[Script=Malayalam, HyphenChar="0000]{Rachana}
-\setsansfont[Script=Malayalam, HyphenChar="0000]{Rachana}
-% In the above line we customized Hyphenation characters since
-% visbile hyphen, aka Soft Hyphen is not used for Malayalam
-%\lefthyphenmin=3
-%\righthyphenmin=4
+% \setsansfont[Script=Malayalam, HyphenChar="0000]{Rachana}
+\setsansfont[Script=Malayalam]{Rachana}
+%\setsansfont[Script=Malayalam]{Meera}
 
 % TODO: Justification ?
 %\usepackage{ragged2e}
@@ -38,6 +35,8 @@
 \usepackage{graphicx}
 
 \title{വിശുദ്ധ കുര്‍ബാന}
+\subject{നോബുകാലം}
+\author{github.com/SyroMalabar}
 
 \newcommand{\Priest}[1]{\color{white}{#1}}
 \newcommand{\People}[1]{\color{yellow}{#1}}
@@ -112,8 +111,7 @@
 
 \begin{frame}[allowframebreaks]
 \frametitle{സ്വര്‍ഗ്ഗസ്ഥനായ ഞങ്ങളുടെ പിതാവേ}
-\Priest{
-സ്വർഗ്ഗസ്ഥനായ ഞങ്ങളുടെ പിതാവേ,}
+\Priest{സ്വർഗ്ഗസ്ഥനായ ഞങ്ങളുടെ പിതാവേ,}
 \People{
 അങ്ങയുടെ നാമം പൂജിതമാകണമേ./ അങ്ങയുടെ രാജ്യം വരണമേ./
 അങ്ങയുടെ തിരുമനസ്സു സ്വര്‍ഗ്ഗത്തിലെ പോലെ ഭൂമിയിലുമാകണമേ./
@@ -122,7 +120,7 @@
 ഞങ്ങളുടെ കടങ്ങളും പാപങ്ങളും ഞങ്ങളോടും ക്ഷമിക്കണമേ./
 ഞങ്ങളെ പ്രലോഭനത്തില്‍ ഉള്‍പ്പെടുത്തരുതേ/ ദുഷ്ടാരൂപിയില്‍ 
 നിന്ന് ഞങ്ങളെ രക്ഷിക്കണമേ/ എന്തുകൊണ്ടെന്നാല്‍/ രാജ്യവും
-ശക്തിയും മഹത്ത്വവും/ എന്നേക്കും അങ്ങയുടെതാകുന്നു.\par\Ammen}
+ശക്തിയും മഹത്ത്വവും/ എന്നേക്കും അങ്ങയുടെതാകുന്നു.\par\Ammen}\\
 \end{frame}
 
 \begin{frame}
@@ -214,6 +212,7 @@
 \end{frame}
 
 % TODO: add prayers according to kalam
+\input{liturgical-seasons/nombu/prarambaprarthana}
 
 \begin{frame}[allowframebreaks]
 \frametitle{സങ്കീര്‍ത്തനം}
@@ -231,10 +230,11 @@
 അനവദ്യൻ മമ നാഥാ, നിൻ\\
 മഹിമയ്ക്കളവില്ലറിവൂ ഞാൻ\\
 തലമുറ തലമുറയോടെന്നും\\
-തവ കർമ്മങ്ങൾ വിവരിക്കും.}
+തവ കർമ്മങ്ങൾ വിവരിക്കും.}\\
 \end{frame}
 
 % TODO: add സങ്കീര്‍ത്തനം according to kalam
+\input{liturgical-seasons/nombu/sankeerthanam}
 
 % not used
 \iffalse
@@ -394,12 +394,8 @@
 \SignOfCross} \Ammen
 \end{frame}
 
+% TODO
 % Ordinary Days
-\begin{frame}[allowframebreaks]
-\Priest{
-TODO
-} \Ammen
-\end{frame}
 
 \begin{frame}
 \frametitle{ലേഖന വായന}
@@ -526,8 +522,8 @@ TODO
 പിതാവിന്റെ വലതു ഭാഗത്തിരി ക്കുന്നു./
 മരിച്ചവരെയും ജീവിക്കുന്നവരെയും വിധിക്കുവാന്‍/
 അവിടുന്നു വീണ്ടും വരുവാനിരിക്കുന്നു./
-പിതാവില്‍നിന്നും പുത്രനില്‍നിന്നും പുറപ്പെടുന്ന/\\ \framebreak
-സത്യാത്മാവും ജീവദാതാവുമായ/
+പിതാവില്‍നിന്നും പുത്രനില്‍നിന്നും പുറപ്പെടുന്ന/
+സത്യാത്മാവും ജീവദാതാവുമായ/\\ \framebreak
 ഏക പരിശുദ്ധാത്മാവിലും ഞങ്ങള്‍ വിശ്വസിക്കുന്നു.
 ഏകവും പരിശുദ്ധവും ശ്ലൈഹീകവും സാര്‍വ്വത്രികവുമായ/
 സഭയിലും ഞങ്ങള്‍ വിശ്വസിക്കുന്നു./
@@ -748,7 +744,7 @@ TODO
 \frametitle{മാദ്ധ്യസ്ഥപ്രാര്‍ത്ഥന}
 \Priest{
 കര്‍ത്താവേ, ശക്തനായ ദൈവമേ, പ്രധാനാചാര്യനും സാര്‍വ്വത്രികസഭയുടെ 
-തലവനും ഭരണാധികാരിയു മായ റോമിലെ മാര്‍ Fransis പാപ്പയ്ക്കുവേണ്ടിയും 
+തലവനും ഭരണാധികാരിയു മായ റോമിലെ മാര്‍ Francis പാപ്പയ്ക്കുവേണ്ടിയും 
 ഞങ്ങളുടെ സഭയുടെ തലവനും പിതാവുമായ മാര്‍ ... 
 ശ്രേഷ്ഠമേത്രാപ്പോലീത്തായ്ക്കുവേണ്ടിയും അതിരൂപാദ്ധ്യക്ഷന്‍ മാര്‍ ... 
 മെത്രാപ്പോലീത്തക്കു വേണ്ടിയും ഞങ്ങളുടെ രൂപതാധ്യക്ഷനും പിതാവുമായ 
@@ -989,6 +985,9 @@ TODO
 
 % TODO:
 % According to kalam
+
+\input{liturgical-seasons/nombu/divyakaarunyasthuthi}
+
 \iffalse
 \begin{frame}
 \frametitle{ദിവ്യകാരുണ്യസ്തുതി}
@@ -1054,9 +1053,10 @@ TODO
 അംഗങ്ങളായിരിക്കുന്നു. അവിടുത്തെ ശരീരവും രക്തവും നമ്മെ പരിപോഷിപ്പിക്കട്ടെ.}
 \end{frame}
 
-\begin{frame}
-% ദിവ്യകാരുണ്യസ്വീകരണഗീതം
-\end{frame}
+% TODO:
+% According to kalam
+
+\input{liturgical-seasons/nombu/divyakaarunyasweekaranageetham}
 
 \begin{frame}[allowframebreaks]
 \frametitle{കൃതജ്ഞതാപ്രകാശനം}
