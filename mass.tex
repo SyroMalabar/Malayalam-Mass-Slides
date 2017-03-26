@@ -1,4 +1,5 @@
 \documentclass[20pt]{beamer}
+% \listfiles
  
 \setbeamercolor{normal text}{bg=black, fg=white}
 \setbeamertemplate{navigation symbols}{}
@@ -34,6 +35,8 @@
 
 \setlength{\parskip}{0.5em}
 
+\usepackage{graphicx}
+
 \title{വിശുദ്ധ കുര്‍ബാന}
 
 \newcommand{\Priest}[1]{\color{white}{#1}}
@@ -49,6 +52,10 @@
 \newcommand{\ForgiveUs}{\People{കര്‍ത്താവേ, അങ്ങയുടെ  ദാസരുടെ പാപങ്ങളും അപരാധങ്ങളും ക്ഷമിക്കണമേ.}}
 \newcommand{\DivyaKarunyaSthuthi}{\Server{ജീവിക്കുന്ന ദൈവത്തെ നിങ്ങള്‍ പ്രകീര്‍ത്തിക്കുവിന്‍.}}
 
+\newcommand{\response}{കര്‍ത്താവേ}
+\newcommand{\presponse}{\People{\response}}
+\newcommand{\karosoosa}[1]{\Server{#1}\par\presponse\\\framebreak}
+
 \newcommand{\AmbaramanavathamPPL}{
 \People{
 ദിവ്യത്മാവിന്‍ ഗീതികളാല്‍\\
@@ -58,6 +65,10 @@
 കൊണ്ടാടാം ഇന്നീ വേദികയില്‍.}}
 
 \begin{document}
+
+\begin{frame}
+\includegraphics[scale=0.15]{intro}
+\end{frame}
 
 \begin{frame}
 \frametitle{കുരിശടയാളം}
@@ -436,11 +447,8 @@ TODO
 \end{frame}
 
 % TODO കാറോസൂസ
-\begin{frame}
-\frametitle{കാറോസൂസ}
-% TODO കാറോസൂസ
-\People{കര്‍ത്താവേ, ഞങ്ങളുടെ പ്രാര്‍തന  കേള്‍ക്കണമേ.}
-\end{frame}
+
+\input{liturgical-seasons/nombu/karosoosa}
 
 \begin{frame}
 %\frametitle{കാഴ്ചസമര്‍പ്പണഗീതം} % -> cant fit on one slide
