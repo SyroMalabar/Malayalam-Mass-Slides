@@ -2,6 +2,7 @@
 % \listfiles
  
 \setbeamercolor{normal text}{bg=black, fg=white}
+\setbeamercolor{frametitle}{fg=orange}
 \setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{frametitle}[default][center]
 \makeatletter 
@@ -33,6 +34,7 @@
 \setlength{\parskip}{0.5em}
 
 \usepackage{graphicx}
+\usepackage{tcolorbox}
 
 \title{വിശുദ്ധ കുര്‍ബാന}
 \subject{നോബുകാലം}
@@ -40,7 +42,7 @@
 
 \newcommand{\Priest}[1]{\color{white}{#1}}
 \newcommand{\People}[1]{\color{yellow}{#1}}
-\newcommand{\Server}[1]{\color{lightgray}{#1}}
+\newcommand{\Server}[1]{\color{cyan}{#1}}
 \newcommand{\Notice}[1]{\color{lime}{(#1)}}
 
 \newcommand{\SignOfCross}{പിതാവും പുത്രനും പരിശുദ്ധാത്മാവുമായ സര്‍വ്വേശ്വരാ, എന്നേക്കും.}
@@ -175,6 +177,9 @@
 \LetsPray
 \end{frame}
 
+% TODO: add prayers according to kalam
+\input{liturgical-seasons/nombu/prarambaprarthana}
+
 % Sundays and Ordinary Celebrations
 \begin{frame}[allowframebreaks]
 \frametitle{പ്രാരംഭ പ്രാര്‍ത്ഥന}
@@ -211,8 +216,8 @@
 ഉണ്ടായിരിക്കട്ടെ. \SignOfCross} \Ammen
 \end{frame}
 
-% TODO: add prayers according to kalam
-\input{liturgical-seasons/nombu/prarambaprarthana}
+% TODO: add സങ്കീര്‍ത്തനം according to kalam
+\input{liturgical-seasons/nombu/sankeerthanam}
 
 \begin{frame}[allowframebreaks]
 \frametitle{സങ്കീര്‍ത്തനം}
@@ -232,9 +237,6 @@
 തലമുറ തലമുറയോടെന്നും\\
 തവ കർമ്മങ്ങൾ വിവരിക്കും.}\\
 \end{frame}
-
-% TODO: add സങ്കീര്‍ത്തനം according to kalam
-\input{liturgical-seasons/nombu/sankeerthanam}
 
 % not used
 \iffalse
@@ -282,7 +284,6 @@
 അങ്ങ് സകലത്തിന്റെയും നാഥനും സ്രഷ്ടാവുമാകുന്നു.
 \SignOfCross} \Ammen
 \end{frame}
-
 
 \begin{frame}[allowframebreaks]
 \frametitle{ഉത്ഥാനഗീതം}
@@ -876,7 +877,7 @@
 \end{frame}
 
 % OR
-\iffalse
+\iftrue
 \begin{frame}[allowframebreaks]
 മനസ്സില്‍ നിറയും മലിനതയെല്ലാം
 കഴുകി ധന്യരാകാം.
@@ -951,7 +952,7 @@
 \begin{frame}[allowframebreaks]
 \Priest{
 കര്‍ത്താവേ, ശക്തനായ സര്‍വ്വേശ്വരാ, നല്ലവനായ ദൈവമേ,
-ക്രിപാപൂര്‍ണ്ണനായ ഞങ്ങളുടെ പിതാവേ, അങ്ങയുടെ കാരുണ്യം 
+കൃപാപൂര്‍ണ്ണനായ ഞങ്ങളുടെ പിതാവേ, അങ്ങയുടെ കാരുണ്യം 
 ഞങ്ങള്‍ കേണപേക്ഷിക്കുന്നു. ഞങ്ങളെ പ്രലോഭനത്തില്‍ 
 ഉള്‍പ്പെടുത്തരുതേ. ദുഷ്ടാരൂപിയില്‍നിന്നും അവന്റെ 
 സൈന്യങ്ങളില്‍നിന്നും ഞങ്ങളെ രക്ഷിക്കണമേ. \framebreak
@@ -974,6 +975,12 @@
 പിതാവിനും പുത്രനും പരിശുദ്ധാത്മാവിനും എന്നേക്കും സ്തുതി.}\\\Ammen
 \end{frame}
 
+
+% TODO:
+% According to kalam
+
+\input{liturgical-seasons/nombu/divyakaarunyasthuthi}
+
 \begin{frame}
 \frametitle{ദിവ്യകാരുണ്യസ്തുതി}
 \DivyaKarunyaSthuthi\par
@@ -982,11 +989,6 @@
 എല്ലാ നിമിഷവും എല്ലാ സമയവും / അവിടുത്തെ കൃപയും കാരുണ്യവും /
 നമ്മുടെമേൽ ഉണ്ടായിരിക്കട്ടെ.}
 \end{frame}
-
-% TODO:
-% According to kalam
-
-\input{liturgical-seasons/nombu/divyakaarunyasthuthi}
 
 \iffalse
 \begin{frame}
@@ -1037,6 +1039,11 @@
 \People{എപ്പോഴും എന്നേക്കും} \Ammen
 \end{frame}
 
+% TODO:
+% According to kalam
+
+\input{liturgical-seasons/nombu/divyakaarunyasweekaranageetham}
+
 \begin{frame}
 \frametitle{ദിവ്യകാരുണ്യ സ്വീകരണഗീതം}
 \Server{
@@ -1052,11 +1059,6 @@
 ജലത്താലും അരൂപിയാലും നാം മിശിഹായുടെ മൌതികശരീരത്തിന്റെ 
 അംഗങ്ങളായിരിക്കുന്നു. അവിടുത്തെ ശരീരവും രക്തവും നമ്മെ പരിപോഷിപ്പിക്കട്ടെ.}
 \end{frame}
-
-% TODO:
-% According to kalam
-
-\input{liturgical-seasons/nombu/divyakaarunyasweekaranageetham}
 
 \begin{frame}[allowframebreaks]
 \frametitle{കൃതജ്ഞതാപ്രകാശനം}
@@ -1188,6 +1190,7 @@
 \end{frame}
 
 % Today Only
+\iffalse
 \begin{frame}[allowframebreaks]
 \frametitle{ലുത്തിനിയ}
 \People{
@@ -1246,5 +1249,5 @@
 ചിന്തകൾ വിണ്ണിലുയർത്തിടുവാൻ\\
 പ്രാർത്ഥിക്കണമേ ഞങ്ങൾക്കായ്.}
 \end{frame}
-
+\fi
 \end{document}
